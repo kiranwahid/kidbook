@@ -1,0 +1,297 @@
+@font-face {
+  font-family: sweetcherry;
+  src: url(./assets/fonts/sweet-cherry-free/SweetCherryFree/Sweet\ Cherry\ Free.otf.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  scroll-behavior: smooth;
+}
+
+.heading {
+  font-family: "Satisfy";
+  font-weight: 900;
+  color: rgb(247, 79, 60);
+  font-style: normal;
+  text-align: center;
+  margin: auto;
+  font-size: 2rem;
+  margin-top: 10%;
+  padding: 10px;
+}
+.anchor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: 60px;
+  background: white;
+  margin: auto;
+}
+
+.anchor .box {
+  margin: 3px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(247, 79, 60);
+  text-decoration: none;
+  background: #f5cba7;
+  padding: 10px;
+  box-shadow: 0px 2px 3px #999797;
+}
+
+.anchor .box:hover {
+  background: rgb(247, 79, 60);
+  color: white;
+}
+.container {
+  display: grid;
+  place-items: center;
+  min-height: 700px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.795);
+}
+
+.container .boxes {
+  margin-top: 40px;
+  width: 60%;
+  height: 300px;
+  background: #f5cba7;
+  box-shadow: 2px 2px 5px #d3aa89;
+}
+
+.container .boxes:hover {
+  color: white;
+  background: rgb(243, 98, 82);
+  box-shadow: 2px 2px 5px #d3aa89;
+}
+
+.container .boxes .img {
+  width: 30%;
+  height: 210px;
+  /* background: rgb(171, 223, 31); */
+  /* box-shadow: 0px 0px 5px  rgba(129, 129, 128, 0.808);; */
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin: 3rem;
+  float: right;
+}
+
+.container .boxes .img img {
+  width: 200px;
+  height: 200px;
+  padding: 5px;
+  margin: auto;
+  margin-left: 10px;
+}
+
+.container .boxes .info {
+  display: flex;
+  justify-content: center;
+  margin: 5rem auto;
+  align-items: center;
+}
+
+.container .boxes .info h1 {
+  font-size: 5rem;
+  padding: 5px;
+  margin-left: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  font-style: normal;
+}
+
+.container .boxes .info h2 {
+  font-size: 2rem;
+  font-family: "Righteous", sans-serif;
+  text-transform: lowercase;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 20px;
+}
+
+.container .boxes .info h3 {
+  font-size: 3.5rem;
+  text-align: center;
+  font-family: sweetcherry;
+  font-weight: 800;
+  font-style: normal;
+  margin-left: 30px;
+}
+
+.container img {
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  margin-left: 700px;
+}
+
+/* latters coloring */
+.letterA {
+  color: red;
+}
+
+.letterB {
+  color: rgba(255, 94, 0, 0.89);
+}
+
+.letterC {
+  color: sandybrown;
+}
+
+.letterD {
+  color: rgb(250, 150, 165);
+}
+
+.letterE {
+  color: slategrey;
+}
+
+.letterF {
+  color: purple;
+}
+
+.letterG {
+  color: rgb(150, 201, 98);
+}
+
+.letterH {
+  color: rgb(248, 104, 104);
+}
+.letterI {
+  color: rgb(175, 142, 100);
+}
+.letterJ {
+  color: rgb(22, 22, 250);
+}
+
+.letterK {
+  color: rgb(250, 216, 22);
+}
+
+.letterL {
+  color: rgb(90, 31, 4);
+}
+.letterM {
+  color: rgb(240, 202, 31);
+}
+.letterN {
+  color: #d3aa89;
+}
+
+.letterO {
+  color: rgb(85, 82, 82);
+}
+
+.letterP {
+  color: steelblue;
+}
+
+.letterQ {
+  color: goldenrod;
+}
+
+.letterR {
+  color: rgb(153, 8, 8);
+}
+
+.letterS {
+  color: #f89719e8;
+}
+
+.letterT {
+  color: teal;
+}
+
+.letterU {
+  color: rgba(70, 131, 180, 0.397);
+}
+
+.letterV {
+  color: rgba(0, 128, 128, 0.397);
+}
+
+.letterW {
+  color: #454546;
+}
+.letterX {
+  color: #e781c3;
+}
+
+.letterY {
+  color: seagreen;
+}
+
+.letterZ {
+  color: gray;
+}
+
+/* .latter:hover{
+  color: white;
+} */
+
+/* Media Queries for Smaller Screens */
+
+@media (max-width: 768px) {
+  .heading {
+    font-size: 1.5rem;
+  }
+  .anchor {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .anchor .box {
+    width: 15vw;
+    height: 15vh;
+  }
+
+  .container .boxes {
+    width: 90%;
+    padding: 15px;
+  }
+  .container .boxes .info h1 {
+    font-size: 2rem;
+  }
+
+  .container .boxes .info h2 {
+    font-size: 1.2rem;
+  }
+
+  .container .boxes .info h3 {
+    font-size: 1.5rem;
+  }
+}
+
+/* Media Queries for Very Small Screens */
+
+@media (max-width: 480px) {
+  .heading {
+    font-size: 1.2rem;
+    margin-top: 10%;
+  }
+  .anchor .box {
+    width: 20vw;
+    height: 20vh;
+  }
+
+  .container .boxes {
+    width: 95%;
+    padding: 10px;
+  }
+  .container .boxes .info h1 {
+    font-size: 1.8rem;
+  }
+  .container .boxes .info h1 {
+    font-size: 1rem;
+  }
+  .container .boxes .info h1 {
+    font-size: 1.2rem;
+  }
+}
